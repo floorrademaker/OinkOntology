@@ -1,1 +1,20 @@
 # OinkOntology
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms: <http://purl.org/dc/terms/>
+
+
+oink:name a rdfs:class
+oink:oink a rdfs:class
+oink:body a rdfs:class
+oink:datetime a rdfs:class
+oink:oinked_by a rdf:property
+dcterms:created a rdf:property
+oink:has_body a rdf:property
+[optional] oink:type a rdfs:class
+[optional] oink:replies_to a rdf:property
+[optional] oink:reposts a rdf:property
+[optional] rdf:type a rdf:property 
+
+
